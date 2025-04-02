@@ -38,7 +38,9 @@ pip install -r requirements.txt
 # Сборка и запуск Docker-контейнера
 docker build -t hh_parser -f docker/Dockerfile .
 docker run -v $(pwd)/data:/app/data hh_parser
+
 ---
+
 ##   🔮 Возможные улучшения
 Парсинг через BeautifulSoup для сайтов без API
 Добавление Airflow для оркестрации задач
