@@ -39,6 +39,6 @@ A project for collecting and analyzing vacancies with HH.ru by the keyword "Data
    pip install -r requirements.txt
 
 3. Building and launching a Docker container
-```bash
+   ```bash
    docker build -t hh_parser -f docker/Dockerfile .
    docker run -v $(pwd)/data:/app/data hh_parser
