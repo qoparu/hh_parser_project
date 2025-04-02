@@ -1,23 +1,23 @@
-# Парсинг вакансий Data Analyst с HeadHunter 🕵️‍♂️
+# Job parsing 🕵️‍♂️
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/Docker-✓-blue?logo=docker)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Проект для сбора и анализа вакансий с HH.ru по ключевому слову "Data Analyst". Включает ETL-пайплайн, визуализацию данных и Docker-контейнер для воспроизводимости.
+A project for collecting and analyzing vacancies with HH.ru by the keyword "Data Analyst". It includes an ETL pipeline, data visualization, and a Docker container for reproducibility.
 
 ---
 
-## 📌 Особенности
-- **Парсинг через API HH.ru** с пагинацией и обработкой ошибок
-- **Сохранение данных** в CSV и SQLite
-- **Анализ топ-10 навыков** из требований вакансий
-- **Готовый Docker-контейнер** для запуска
-- **Визуализация результатов** (графики в Matplotlib)
+## 📌 Features
+- **Parsing via API HH.ru** with pagination and error handling
+- **Saving data** to CSV and SQLite
+- **Analysis of the top 10 skills** from job requirements
+- **Ready-made Docker container** for launch
+- **Visualization of results** (graphs in Matplotlib)
 
 ---
 
-## 🛠 Технологии
+## 🛠 Technologies
 - **Python**: `requests`, `pandas`, `sqlite3`, `matplotlib`
 - **Базы данных**: SQLite
 - **Инфраструктура**: Docker
@@ -25,30 +25,21 @@
 
 ---
 
-## 🚀 Быстрый старт
+## 🚀 Start
 
-### Установка
-1. Клонируйте репозиторий:
+### Installation
+1. Clone the repository:
    ```bash
    git clone https://github.com/ваш-username/hh-parser-project.git
    cd hh-parser-project
    
-2. Установка зависимости:
+2. Install dependency:
    ```bash
    pip install -r requirements.txt
 
-# Сборка и запуск Docker-контейнера
-
+3. Building and launching a Docker container
 ```bash
    docker build -t hh_parser -f docker/Dockerfile .
    docker run -v $(pwd)/data:/app/data hh_parser
 
----
-
-## 🔮 Возможные улучшения
-Парсинг через BeautifulSoup для сайтов без API
-Добавление Airflow для оркестрации задач
-Анализ динамики зарплат по городам
-Интеграция с Telegram-ботом для уведомлений
-
-💻 Код писался с любовью к данным и кофе.
+💻 Код писался с любовью к данным и кофе. 
