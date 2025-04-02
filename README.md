@@ -19,9 +19,9 @@ A project for collecting and analyzing vacancies with HH.ru by the keyword "Data
 
 ## 🛠 Technologies
 - **Python**: `requests`, `pandas`, `sqlite3`, `matplotlib`
-- **Базы данных**: SQLite
-- **Инфраструктура**: Docker
-- **Анализ**: Статистика, NLP (базовый)
+- **Databases**: SQLite
+- **Infrastructure**: Docker
+- **Analyse**: Статистика, NLP (базовый)
 
 ---
 
