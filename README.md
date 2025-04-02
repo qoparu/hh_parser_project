@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 A project for collecting and analyzing vacancies with HH.ru by the keyword "Data Analyst". It includes an ETL pipeline, data visualization, and a Docker container for reproducibility.
+💻 The code was written with a love for data and coffee.
 
 ---
 
@@ -41,5 +42,3 @@ A project for collecting and analyzing vacancies with HH.ru by the keyword "Data
 ```bash
    docker build -t hh_parser -f docker/Dockerfile .
    docker run -v $(pwd)/data:/app/data hh_parser
-
-💻 Код писался с любовью к данным и кофе. 
