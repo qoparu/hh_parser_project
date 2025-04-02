@@ -13,7 +13,7 @@
 - **Сохранение данных** в CSV и SQLite
 - **Анализ топ-10 навыков** из требований вакансий
 - **Готовый Docker-контейнер** для запуска
-- Визуализация результатов (графики в Matplotlib)
+- **Визуализация результатов** (графики в Matplotlib)
 
 ---
 
@@ -32,8 +32,10 @@
    ```bash
    git clone https://github.com/ваш-username/hh-parser-project.git
    cd hh-parser-project
-   ### Установка зависимости:
-pip install -r requirements.txt
+   
+2. Установка зависимости:
+   ```bash
+   pip install -r requirements.txt
 
 # Сборка и запуск Docker-контейнера
 docker build -t hh_parser -f docker/Dockerfile .
