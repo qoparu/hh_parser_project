@@ -1,4 +1,4 @@
-# Job parsing for hh 🕵️‍♂️
+# Job parsing for hh 
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/Docker-✓-blue?logo=docker)](https://www.docker.com/)
