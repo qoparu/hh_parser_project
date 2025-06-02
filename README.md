@@ -60,6 +60,6 @@ A project for collecting and analyzing vacancies with HH.ru by the keyword "Data
   </div>
   
   <pre>
-ദ്ദി ≽^⎚˕⎚^≼ 
+ദ്ദി ≽^⎚˕⎚^≼
   </pre>
 </div>
